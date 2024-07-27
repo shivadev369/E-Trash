@@ -1,59 +1,48 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+/* styles.css */
 
 .app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  width: 100%;
-  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f0f0f0; /* Change background color as desired */
+  padding: 10px 20px;
 }
 
 .navbar ul {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
   display: flex;
 }
 
 .navbar li {
-  margin-right: 20px;
+  margin: 0 10px;
 }
 
 .navbar a {
-  color: white;
   text-decoration: none;
-  font-size: 16px;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
+  color: #333; /* Adjust link color as desired */
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url('assests/hero-image.jpg') no-repeat center center/cover;
-  color: white;
+  background: url(./assests/hero-img.jpg);
+  background-size: cover;
+  padding: 20px;
+  margin-right: 0; /* Adjust if needed */
   text-align: center;
+  height: 100vh;
+  width: 100%;
+  
 }
+
+
 
 .hero h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
-}
-
-.hero p {
-  font-size: 1.5em;
 }

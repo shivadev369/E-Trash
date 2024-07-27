@@ -18,6 +18,7 @@ const Navbar = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#credits">Credits</a></li>
       </ul>
     </nav>
   );
@@ -26,8 +27,8 @@ const Navbar = () => {
 const HeroSection = () => {
   return (
     <header className="hero">
-      <h1>Welcome to Our Website</h1>
-      <p>Your journey begins here</p>
+      <h1>Welcome to E-waste Recycling</h1>
+      <p></p>
     </header>
   );
 };
